@@ -1,3 +1,4 @@
+ /* eslint-disable no-unused-vars */
  /* eslint-disable */
 export default function taskBlock(trueOrFalse) {
   const task = false;
@@ -7,7 +8,6 @@ export default function taskBlock(trueOrFalse) {
     const task = true;
     const task2 = false;
   }
-   /* eslint-enable */
 
   return [task, task2];
 }
